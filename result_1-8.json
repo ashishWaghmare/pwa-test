@@ -1,0 +1,22 @@
+{
+  "statusCode": 200,
+  "message": "Successfully retrieved data",
+  "data": {
+    "exam": "Unit Test 1",
+    "result": [
+      {
+        "subject": "Hindi",
+        "score": "A"
+      },
+      {
+        "subject": "English",
+        "score": "B"
+      },
+      {
+        "subject": "Mathematics",
+        "score": "A+"
+      }
+    ]
+  },
+  "additionalData": null
+}

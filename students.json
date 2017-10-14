@@ -1,0 +1,155 @@
+{
+  "statusCode": 200,
+  "message": "Records successfully retrieved for: student",
+  "data": [
+    {
+      "title": "Miss",
+      "studentId": "2013272519016040020",
+      "aadharId": "20991561686",
+      "regDate": "2017-07-29",
+      "firstName": "Bhairavi",
+      "middleName": "Kaustubh",
+      "lastName": "Samudra",
+      "dob": "2017-07-29",
+      "dateOfBirthInWords": "Twenty Ninth July Two thousand seventeen",
+      "placeOfBirth": "Pune Haveli, Pune",
+      "nationality": "Indian",
+      "gender": "FEMALE",
+      "bloodGroup": "A_POS",
+      "std": "Tenth",
+      "division": "B",
+      "guardians": [
+        {
+          "firstName": "Kaustubh",
+          "lastName": "Samudra",
+          "middleName": null,
+          "age": 56,
+          "gender": "MALE",
+          "relationship": "Father"
+        },
+        {
+          "firstName": "Mrunal",
+          "lastName": "Samudra",
+          "middleName": null,
+          "age": 52,
+          "gender": "FEMALE",
+          "relationship": "Mother"
+        }
+      ],
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": null,
+      "motherTongue": "Marathi",
+      "fullName": "Miss Bhairavi ",
+      "fatherName": "Kaustubh ",
+      "motherName": "Mrunal ",
+      "addresses": [
+        {
+          "address1": "A-302",
+          "address2": "Nea Plus",
+          "address3": "Sus Road",
+          "pinCode": 411021,
+          "city": "Pune",
+          "country": "India",
+          "addressType": "Current Address"
+        },
+        {
+          "address1": "Imiliya",
+          "address2": "Bhorey",
+          "address3": "Gopalganj",
+          "pinCode": 841426,
+          "city": "Gopalganj",
+          "country": "India",
+          "addressType": "Permanent Address"
+        }
+      ],
+      "contacts": [
+        {
+          "personName": "Imteyaz Ahmad",
+          "contactNumber": 7276100821,
+          "contactType": "GENERAL"
+        },
+        {
+          "personName": "Imteyaz Ahmad",
+          "contactNumber": 7276100821,
+          "contactType": "EMERGENCY"
+        }
+      ]
+    },
+    {
+      "title": "Miss",
+      "studentId": "2013272519016040019",
+      "aadharId": "20991561686",
+      "regDate": "2017-07-29",
+      "firstName": "Kasturi",
+      "middleName": "Rajendra",
+      "lastName": "Korade",
+      "dob": "2017-07-29",
+      "dateOfBirthInWords": "Twenty Ninth July Two thousand seventeen",
+      "placeOfBirth": "Pune Haveli, Pune",
+      "nationality": "Indian",
+      "gender": "FEMALE",
+      "bloodGroup": "A_POS",
+      "std": "Tenth",
+      "division": "B",
+      "guardians": [
+        {
+          "firstName": "Rajendra",
+          "lastName": "Korade",
+          "middleName": null,
+          "age": 56,
+          "gender": "MALE",
+          "relationship": "Father"
+        },
+        {
+          "firstName": "Mrunmayi",
+          "lastName": "Korade",
+          "middleName": null,
+          "age": 52,
+          "gender": "FEMALE",
+          "relationship": "Mother"
+        }
+      ],
+      "religion": "Hindu",
+      "caste": "Maratha",
+      "subCaste": "Marathis",
+      "motherTongue": "Marathi",
+      "fullName": "Miss Kasturi ",
+      "fatherName": "Rajendra ",
+      "motherName": "Mrunmayi ",
+      "addresses": [
+        {
+          "address1": "A-302",
+          "address2": "Nea Plus",
+          "address3": "Sus Road",
+          "pinCode": 411021,
+          "city": "Pune",
+          "country": "India",
+          "addressType": "Current Address"
+        },
+        {
+          "address1": "Imiliya",
+          "address2": "Bhorey",
+          "address3": "Gopalganj",
+          "pinCode": 841426,
+          "city": "Gopalganj",
+          "country": "India",
+          "addressType": "Permanent Address"
+        }
+      ],
+      "contacts": [
+        {
+          "personName": "Imteyaz Ahmad",
+          "contactNumber": 7276100821,
+          "contactType": "GENERAL"
+        },
+        {
+          "personName": "Imteyaz Ahmad",
+          "contactNumber": 7276100821,
+          "contactType": "EMERGENCY"
+        }
+      ]
+    }
+  ],
+  "additionalData": null
+}

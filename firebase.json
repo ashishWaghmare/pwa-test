@@ -1,0 +1,76 @@
+{
+"hosting": {
+
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "**",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, no-cache"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Max-Age",
+          "value": "600"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "private, no-cache"
+        }
+      ]
+    },
+    {
+      "source": "**/*.chunk.*.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</bundle.d8b2d.js>; rel=preload; as=script, </style.2cee0.css>; rel=preload; as=style, </route-home.chunk.bf9b8.js>; rel=preload; as=script"
+        }
+      ]
+    },
+    {
+      "source": "/myclass",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</bundle.d8b2d.js>; rel=preload; as=script, </style.2cee0.css>; rel=preload; as=style, </route-myclass.chunk.886f8.js>; rel=preload; as=script"
+        }
+      ]
+    },
+    {
+      "source": "/profile",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</bundle.d8b2d.js>; rel=preload; as=script, </style.2cee0.css>; rel=preload; as=style, </route-profile.chunk.f6cd2.js>; rel=preload; as=script"
+        }
+      ]
+    }
+  ],
+  "public": "build"
+ }
+}
